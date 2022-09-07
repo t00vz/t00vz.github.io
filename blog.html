@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<title>BLOG</title>
+<head>
+<link rel="stylesheet" href="./css/style.css">
+<style>
+.column {
+  float: left;
+  width: 45%;
+  padding: 15px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+body{
+    margin: 100px;
+}
+</style>
+</head>
+<boby>
+  <div class="topnav">
+    <a href="./index.html">Home</a>
+    <a href="./about.html">About</a>
+    <a href="./blog.html">Blog</a>
+  </div>
+    <div class="row">
+        <div class="column">
+          <h2>Learning</h2>
+          <a href="./blog/task1.html">Task 1</a>
+          <p>The HTTP Protocol.</p>
+          <a href="./blog/task2.html">Task 2</a>
+          <p>Proxy Server.</p>
+          <a href="./blog/task5.html">Task 5</a>
+          <p>Basic Linux Command.</p>
+          <a href="./blog/task7.html">Task 7</a>
+          <p>Local File Inclusion.</p>
+          <a href="./blog/task9.html">Task 9</a>
+          <p>SQL Injection.</p>
+        </div>
+        
+        <div class="column">
+          <h2>CTF</h2>
+          <a href="./blog/task3.html">Task 3</a>
+          <p>[Root Me] HTTP-User-agent.</p>
+          <a href="./blog/task4.html">Task 4</a>
+          <p>[Root Me] HTTP-IP restriction bypass.</p>
+          <a href="./blog/task6.html">Task 6</a>
+          <p>[Hack CTF] Web challenges.</p>
+          <a href="./blog/task8.html">Task 8</a>
+          <p>[Root Me] PHP - Filters.</p>
+          <a href="./blog/task10.html">Task 10</a>
+          <p>[Root Me] SQL injection challenges</p>
+        </div>
+      </div>
+    </body>
